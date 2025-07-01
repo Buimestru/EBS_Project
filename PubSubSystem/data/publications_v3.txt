@@ -1,0 +1,896 @@
+id: "d192fe76-a762-4b78-9c1e-987ad367cd95"
+stationid: 212
+city: "Cluj"
+temp: 31
+rain: 16.1
+wind: 126
+direction: "S"
+date: "6.03.2025"
+
+id: "4bafeb5e-17d4-4450-89ea-48d328b14474"
+stationid: 854
+city: "Cluj"
+temp: 19
+rain: 44.6
+wind: 83
+direction: "S"
+date: "15.08.2024"
+
+id: "8d45a0f4-c212-4fef-934e-f2fda39630a4"
+stationid: 865
+city: "Botosani"
+temp: 35
+rain: 76.4
+wind: 70
+direction: "SW"
+date: "22.12.2024"
+
+id: "1fe9bf4a-a741-4480-91a8-1139324ac013"
+stationid: 750
+city: "Iasi"
+temp: 41
+rain: 20.7
+wind: 144
+direction: "N"
+date: "15.03.2024"
+
+id: "5bf4d3ad-a174-439e-85c8-ae8447f3f623"
+stationid: 869
+city: "Timisoara"
+temp: 23
+rain: 9.9
+wind: 44
+direction: "NE"
+date: "8.12.2023"
+
+id: "4073b051-deb7-4a7e-a56f-5355f6c99fa3"
+stationid: 420
+city: "Cluj"
+temp: 16
+rain: 21.1
+wind: 46
+direction: "N"
+date: "19.01.2024"
+
+id: "0aee6e58-c0d8-4c69-9534-23d5fe082400"
+stationid: 324
+city: "Botosani"
+temp: 37
+rain: 59.0
+wind: 4
+direction: "S"
+date: "13.06.2025"
+
+id: "cd63b2b9-5eff-4f61-9646-321fc710bcb3"
+stationid: 584
+city: "Botosani"
+temp: 14
+rain: 71.2
+wind: 149
+direction: "SE"
+date: "29.12.2024"
+
+id: "25172cd1-d003-4358-aa4d-ade2d8c08394"
+stationid: 749
+city: "Cluj"
+temp: 45
+rain: 20.8
+wind: 75
+direction: "N"
+date: "25.08.2023"
+
+id: "44633b35-b765-454d-adcd-722d791d25bf"
+stationid: 991
+city: "Suceava"
+temp: 31
+rain: 91.9
+wind: 88
+direction: "W"
+date: "2.10.2023"
+
+id: "6112cd5a-c78b-4609-a90d-6719f7b7976e"
+stationid: 746
+city: "Suceava"
+temp: 7
+rain: 95.3
+wind: 42
+direction: "SW"
+date: "30.06.2024"
+
+id: "ae692412-88b7-4495-8e29-9cc8560fe75e"
+stationid: 783
+city: "Suceava"
+temp: 40
+rain: 9.8
+wind: 22
+direction: "SE"
+date: "10.02.2023"
+
+id: "15407423-72d8-4f8d-ba78-bf6b5ce02592"
+stationid: 796
+city: "Suceava"
+temp: 41
+rain: 81.8
+wind: 30
+direction: "SW"
+date: "4.11.2022"
+
+id: "01ce8e8f-8281-41aa-ba15-8116cf01b992"
+stationid: 249
+city: "Suceava"
+temp: 44
+rain: 8.2
+wind: 63
+direction: "E"
+date: "24.06.2024"
+
+id: "4bfb33c4-1fa0-4f40-9b85-a94a725cb96a"
+stationid: 946
+city: "Botosani"
+temp: 49
+rain: 73.6
+wind: 52
+direction: "W"
+date: "11.06.2024"
+
+id: "dd98cf01-413e-4d5b-86c8-2ba49b0f605d"
+stationid: 561
+city: "Suceava"
+temp: 3
+rain: 64.8
+wind: 74
+direction: "S"
+date: "3.12.2022"
+
+id: "f9ebb225-d3d1-42a7-b782-3939b6d72462"
+stationid: 672
+city: "Cluj"
+temp: 38
+rain: 78.9
+wind: 33
+direction: "NW"
+date: "16.08.2023"
+
+id: "40164169-bbbd-4df8-b88d-2e9b878c910a"
+stationid: 126
+city: "Suceava"
+temp: 22
+rain: 45.1
+wind: 109
+direction: "NW"
+date: "27.08.2024"
+
+id: "24f301e9-c14b-4d91-a168-6a9e25e0d508"
+stationid: 86
+city: "Suceava"
+temp: 18
+rain: 24.9
+wind: 140
+direction: "SE"
+date: "17.02.2025"
+
+id: "8a56e4bb-6dbf-4651-b89f-8e0daea768df"
+stationid: 438
+city: "Iasi"
+temp: 40
+rain: 68.0
+wind: 44
+direction: "N"
+date: "2.05.2025"
+
+id: "af00e685-6897-4ccb-9625-86c0dd473f6f"
+stationid: 469
+city: "Bucharest"
+temp: 49
+rain: 24.8
+wind: 138
+direction: "NW"
+date: "5.03.2024"
+
+id: "d2e470b4-34f6-4d22-9227-e8c3934f1bbd"
+stationid: 230
+city: "Cluj"
+temp: 27
+rain: 61.5
+wind: 86
+direction: "E"
+date: "15.08.2024"
+
+id: "101ee38d-ec85-41f3-bf1a-b963bb0dc0cf"
+stationid: 939
+city: "Botosani"
+temp: 33
+rain: 35.1
+wind: 148
+direction: "SE"
+date: "30.03.2023"
+
+id: "d751ef45-caf8-45a9-9342-078c5868a5ff"
+stationid: 746
+city: "Botosani"
+temp: 42
+rain: 66.2
+wind: 131
+direction: "SW"
+date: "25.12.2022"
+
+id: "d0df6903-3a1e-4a86-9d67-674dd83a7924"
+stationid: 85
+city: "Cluj"
+temp: 7
+rain: 2.1
+wind: 66
+direction: "NW"
+date: "18.05.2024"
+
+id: "a646ae03-be25-48ba-965f-64a37d7decdc"
+stationid: 733
+city: "Cluj"
+temp: 10
+rain: 15.6
+wind: 13
+direction: "SW"
+date: "16.10.2023"
+
+id: "a5ed4e8b-2bef-4199-a347-c9d46c25cfb2"
+stationid: 352
+city: "Suceava"
+temp: 37
+rain: 70.5
+wind: 30
+direction: "NE"
+date: "23.11.2024"
+
+id: "cfa9046c-d2d7-4ec1-99b5-13c10aeb67e3"
+stationid: 607
+city: "Bucharest"
+temp: 19
+rain: 29.1
+wind: 82
+direction: "SW"
+date: "24.02.2025"
+
+id: "be5aaf69-d121-4d19-89e8-e2d045ac40b6"
+stationid: 413
+city: "Suceava"
+temp: 5
+rain: 77.5
+wind: 53
+direction: "S"
+date: "6.03.2024"
+
+id: "715538c1-33a1-4951-81a1-987fa1118cbb"
+stationid: 480
+city: "Timisoara"
+temp: 31
+rain: 22.2
+wind: 30
+direction: "NE"
+date: "30.04.2023"
+
+id: "35e6a484-4c39-4cf8-bfba-6e268731f8c7"
+stationid: 836
+city: "Timisoara"
+temp: 29
+rain: 15.7
+wind: 145
+direction: "N"
+date: "26.12.2024"
+
+id: "60918d92-3830-42f9-941b-c4aff06548f8"
+stationid: 328
+city: "Botosani"
+temp: 1
+rain: 2.7
+wind: 110
+direction: "E"
+date: "6.02.2025"
+
+id: "83006220-fb3c-4582-a263-6c7f615184a9"
+stationid: 957
+city: "Suceava"
+temp: 2
+rain: 31.1
+wind: 105
+direction: "W"
+date: "25.09.2024"
+
+id: "9b758a62-7267-460f-b004-54b6d316f44a"
+stationid: 242
+city: "Botosani"
+temp: 7
+rain: 81.7
+wind: 106
+direction: "NE"
+date: "2.11.2022"
+
+id: "6d59f753-fa26-4910-84aa-8744cb9de16c"
+stationid: 724
+city: "Cluj"
+temp: 7
+rain: 5.5
+wind: 9
+direction: "W"
+date: "26.07.2023"
+
+id: "23c72725-8c63-447f-89e4-9df17bebe20f"
+stationid: 937
+city: "Iasi"
+temp: 20
+rain: 58.1
+wind: 98
+direction: "NE"
+date: "8.08.2023"
+
+id: "df7b8823-c34b-43d6-8875-8cb63bd069e8"
+stationid: 541
+city: "Suceava"
+temp: 7
+rain: 21.8
+wind: 132
+direction: "NW"
+date: "29.06.2024"
+
+id: "15b92539-6968-4e8b-bcee-c71d9b572188"
+stationid: 884
+city: "Cluj"
+temp: 40
+rain: 91.5
+wind: 35
+direction: "S"
+date: "6.07.2023"
+
+id: "30b11491-64e7-4843-b647-d84b34dc2718"
+stationid: 243
+city: "Cluj"
+temp: 46
+rain: 93.5
+wind: 139
+direction: "N"
+date: "24.05.2023"
+
+id: "60338425-7b44-4bb1-ab7b-7f5951fb89cc"
+stationid: 393
+city: "Iasi"
+temp: 14
+rain: 73.4
+wind: 90
+direction: "N"
+date: "21.03.2023"
+
+id: "8a7df07c-bb2f-4878-a01b-79ca3125f468"
+stationid: 47
+city: "Timisoara"
+temp: 17
+rain: 9.7
+wind: 119
+direction: "W"
+date: "27.06.2025"
+
+id: "b38e3045-507c-4f13-acd5-6a8bd7819fe2"
+stationid: 802
+city: "Suceava"
+temp: 6
+rain: 13.5
+wind: 118
+direction: "NW"
+date: "12.08.2023"
+
+id: "1caf7087-f8c0-41b6-b8de-5fcf5ac68e6d"
+stationid: 657
+city: "Cluj"
+temp: 43
+rain: 17.9
+wind: 147
+direction: "E"
+date: "4.10.2023"
+
+id: "b4f388ae-c360-401c-9c6e-3bbb5aacb21f"
+stationid: 632
+city: "Suceava"
+temp: 46
+rain: 5.9
+wind: 86
+direction: "W"
+date: "27.08.2024"
+
+id: "db332766-0251-4d6a-9c44-cd345571e6e6"
+stationid: 776
+city: "Suceava"
+temp: 8
+rain: 64.8
+wind: 61
+direction: "SW"
+date: "12.04.2023"
+
+id: "e3d6ac50-5a34-4561-b085-81572b9d0162"
+stationid: 517
+city: "Timisoara"
+temp: 9
+rain: 71.2
+wind: 6
+direction: "SW"
+date: "29.04.2024"
+
+id: "3fa4f19d-8ba3-4584-92be-ae2de36ae97d"
+stationid: 894
+city: "Iasi"
+temp: 48
+rain: 11.4
+wind: 81
+direction: "E"
+date: "9.09.2023"
+
+id: "6aa20a31-32ac-4b88-b88f-e0aefc1b3821"
+stationid: 488
+city: "Botosani"
+temp: 35
+rain: 46.3
+wind: 40
+direction: "SW"
+date: "31.08.2024"
+
+id: "d7c3b1ee-a5fc-4422-a93d-68b9a8237917"
+stationid: 573
+city: "Timisoara"
+temp: 48
+rain: 22.4
+wind: 125
+direction: "SW"
+date: "24.08.2023"
+
+id: "eb93351a-25d9-4a70-a602-8601169b0521"
+stationid: 839
+city: "Botosani"
+temp: 42
+rain: 0.6
+wind: 130
+direction: "S"
+date: "3.11.2022"
+
+id: "3848d960-6c8a-4971-81e2-c66d3c45d72c"
+stationid: 959
+city: "Cluj"
+temp: 33
+rain: 35.8
+wind: 47
+direction: "E"
+date: "16.01.2023"
+
+id: "04f65bee-0af2-43fb-9790-b0902277e5c4"
+stationid: 448
+city: "Cluj"
+temp: 38
+rain: 59.4
+wind: 17
+direction: "S"
+date: "29.05.2025"
+
+id: "b71aa13e-2a25-49c9-a490-f11fac1a1cab"
+stationid: 547
+city: "Botosani"
+temp: 6
+rain: 17.2
+wind: 23
+direction: "W"
+date: "5.07.2023"
+
+id: "c8f0ddb9-9874-4b8e-a8c5-5e8e2a3d4037"
+stationid: 399
+city: "Timisoara"
+temp: 26
+rain: 64.1
+wind: 4
+direction: "SW"
+date: "12.09.2024"
+
+id: "5d2ee89b-9bcc-418f-948e-315d4846a72c"
+stationid: 346
+city: "Suceava"
+temp: 6
+rain: 90.1
+wind: 41
+direction: "SE"
+date: "8.01.2024"
+
+id: "13ccbf97-c0ea-4ee8-827d-b9a4b20691cc"
+stationid: 680
+city: "Timisoara"
+temp: 15
+rain: 3.5
+wind: 106
+direction: "SE"
+date: "31.05.2023"
+
+id: "76470da0-d086-4619-874a-d66c1ad16256"
+stationid: 911
+city: "Bucharest"
+temp: 24
+rain: 10.1
+direction: "SE"
+date: "28.03.2025"
+
+id: "9f3ac674-5765-4cea-b349-629d03a06a88"
+stationid: 92
+city: "Timisoara"
+temp: 9
+rain: 52.1
+wind: 146
+direction: "NE"
+date: "25.03.2025"
+
+id: "a656f17b-30bb-448c-89be-b0cd476c16e0"
+stationid: 707
+city: "Bucharest"
+temp: 30
+rain: 80.1
+wind: 71
+direction: "E"
+date: "1.02.2023"
+
+id: "9c3e0247-f129-4147-998c-2ed915fd9b43"
+stationid: 288
+city: "Suceava"
+temp: 6
+rain: 98.0
+wind: 81
+direction: "NW"
+date: "15.02.2024"
+
+id: "264ef2a9-7cf1-440f-ad79-bbe445640f41"
+stationid: 171
+city: "Bucharest"
+temp: 24
+rain: 54.5
+wind: 22
+direction: "W"
+date: "15.09.2024"
+
+id: "0d7e131e-56e0-4775-8c8a-031cc41a6598"
+stationid: 20
+city: "Timisoara"
+temp: 46
+rain: 17.0
+wind: 97
+direction: "W"
+date: "31.10.2022"
+
+id: "d2e039f1-ec30-455c-a14c-72bda91a8d1a"
+stationid: 563
+city: "Timisoara"
+temp: 1
+rain: 93.2
+wind: 7
+direction: "E"
+date: "1.10.2024"
+
+id: "356bf768-01c2-4921-b5ff-97cda97f3f6f"
+stationid: 905
+city: "Cluj"
+temp: 7
+rain: 77.2
+wind: 41
+direction: "E"
+date: "26.04.2024"
+
+id: "842e89db-72be-4ae5-8466-13432a3f00fc"
+stationid: 343
+city: "Cluj"
+temp: 5
+rain: 8.6
+wind: 86
+direction: "E"
+date: "11.07.2023"
+
+id: "ded116dc-4a95-47e5-8ab5-b8a490fa87c9"
+stationid: 404
+city: "Bucharest"
+temp: 31
+rain: 32.6
+wind: 25
+direction: "E"
+date: "8.07.2023"
+
+id: "47b34de9-086f-4860-bdb7-6cd15c1d93ae"
+stationid: 877
+city: "Iasi"
+temp: 36
+rain: 97.2
+wind: 12
+direction: "S"
+date: "5.06.2023"
+
+id: "97014ef1-175f-4fac-b5f2-bf521e1de603"
+stationid: 478
+city: "Cluj"
+temp: 23
+rain: 54.0
+wind: 58
+direction: "NW"
+date: "17.12.2023"
+
+id: "535aae67-d676-45c2-b55f-c6c5e45c5140"
+stationid: 226
+city: "Cluj"
+temp: 32
+rain: 52.3
+wind: 145
+direction: "N"
+date: "9.04.2025"
+
+id: "1bb9ff58-bf14-4a0c-9fe6-7e126e668dae"
+stationid: 293
+city: "Timisoara"
+temp: 7
+rain: 67.2
+wind: 96
+direction: "W"
+date: "21.01.2023"
+
+id: "aedbb1de-fe7d-43ff-9569-033b7ad72406"
+stationid: 793
+city: "Timisoara"
+temp: 24
+rain: 33.4
+wind: 45
+direction: "SW"
+date: "20.12.2022"
+
+id: "bc901797-cc11-4a21-833b-f41ce93757fe"
+stationid: 388
+city: "Bucharest"
+temp: 23
+rain: 64.5
+wind: 134
+direction: "NE"
+date: "22.08.2024"
+
+id: "bf3cc253-d534-471d-881e-a34ebd2f776f"
+stationid: 713
+city: "Bucharest"
+temp: 42
+rain: 82.8
+wind: 54
+direction: "S"
+date: "23.08.2024"
+
+id: "b97037d5-74ca-4faa-bdaa-b4d59a592f9d"
+stationid: 674
+city: "Suceava"
+temp: 32
+rain: 41.0
+wind: 92
+direction: "E"
+date: "30.10.2024"
+
+id: "18b3f807-aa30-411e-b387-1f48197a3a9c"
+stationid: 630
+city: "Timisoara"
+temp: 3
+rain: 21.0
+wind: 121
+direction: "SW"
+date: "26.10.2023"
+
+id: "6bbafcfd-b65e-47c3-945f-51b08dd6970e"
+stationid: 978
+city: "Cluj"
+temp: 19
+rain: 80.7
+wind: 5
+direction: "S"
+date: "22.03.2024"
+
+id: "6c1e6795-84ca-4cf6-abb4-2249ab054494"
+stationid: 447
+city: "Timisoara"
+temp: 36
+rain: 35.6
+wind: 8
+direction: "W"
+date: "27.04.2025"
+
+id: "3e39b3a3-8a6e-4c1f-b235-4b5475454656"
+stationid: 767
+city: "Botosani"
+temp: 31
+rain: 5.7
+wind: 130
+direction: "N"
+date: "1.01.2024"
+
+id: "933dec2b-4dd3-4c7f-9fc4-15736fb59911"
+stationid: 398
+city: "Bucharest"
+temp: 34
+rain: 94.7
+wind: 79
+direction: "SE"
+date: "24.03.2025"
+
+id: "b774b53a-1a23-41ff-a28c-c62d1bf26dab"
+stationid: 837
+city: "Bucharest"
+temp: 1
+rain: 15.9
+wind: 12
+direction: "N"
+date: "11.04.2024"
+
+id: "20608040-798d-4bf8-9768-f2ed1c1159ee"
+stationid: 418
+city: "Iasi"
+temp: 11
+rain: 38.0
+wind: 22
+direction: "NW"
+date: "12.12.2022"
+
+id: "8ba37532-dd8a-49e2-a4e6-fa3aebe4d85b"
+stationid: 213
+city: "Cluj"
+temp: 27
+rain: 34.6
+wind: 93
+direction: "E"
+date: "17.01.2025"
+
+id: "ea7a6482-887d-45e7-a03f-b0dab6343371"
+stationid: 789
+city: "Suceava"
+temp: 7
+rain: 9.8
+wind: 145
+direction: "N"
+date: "19.05.2025"
+
+id: "433b1332-0e09-4ad5-8bb9-5756d5eb3628"
+stationid: 45
+city: "Bucharest"
+temp: 37
+rain: 37.3
+wind: 109
+direction: "SE"
+date: "5.02.2024"
+
+id: "4198ce0c-df2d-4716-8af7-d6d2943d6752"
+stationid: 6
+city: "Iasi"
+rain: 0.7
+wind: 55
+direction: "W"
+date: "25.02.2023"
+
+id: "dbfd08f0-a383-4c88-af13-7efd30a9ab36"
+stationid: 433
+city: "Bucharest"
+temp: 5
+rain: 32.9
+wind: 8
+direction: "S"
+date: "20.07.2024"
+
+id: "a5d7ce5a-62c2-4063-ac6b-1af5d2cfbc39"
+stationid: 202
+city: "Bucharest"
+temp: 2
+rain: 28.0
+wind: 32
+direction: "SE"
+date: "30.05.2025"
+
+id: "e8f457c1-79ff-4c44-8aaf-a14be2724ffe"
+stationid: 747
+city: "Botosani"
+temp: 13
+rain: 11.4
+wind: 98
+direction: "NW"
+date: "8.02.2023"
+
+id: "5046dbda-5a71-4a35-812b-71b461cb3dda"
+stationid: 677
+city: "Iasi"
+temp: 26
+rain: 66.6
+wind: 81
+direction: "N"
+date: "5.02.2025"
+
+id: "830f428c-b232-4679-bc1c-91324f4c42c9"
+stationid: 803
+city: "Iasi"
+temp: 9
+rain: 42.2
+wind: 85
+direction: "S"
+date: "21.12.2024"
+
+id: "81edac6c-f220-4b98-851a-5715e894af6b"
+stationid: 859
+city: "Cluj"
+temp: 31
+rain: 24.4
+wind: 69
+direction: "E"
+date: "27.01.2025"
+
+id: "a9129080-1f40-44f2-8a68-74646eebe903"
+stationid: 190
+city: "Botosani"
+rain: 1.8
+wind: 47
+direction: "S"
+date: "10.04.2023"
+
+id: "48c01a82-70cb-4360-a5e0-a1a6c6c2e5ff"
+stationid: 765
+city: "Iasi"
+temp: 34
+rain: 11.9
+wind: 31
+direction: "W"
+date: "17.01.2024"
+
+id: "480a92c2-55da-4b4d-9f01-f30d0564faf6"
+stationid: 412
+city: "Iasi"
+temp: 21
+rain: 67.4
+wind: 43
+direction: "NE"
+date: "23.06.2023"
+
+id: "f09aba30-571f-432b-9482-5b32a095aefe"
+stationid: 968
+city: "Suceava"
+temp: 9
+rain: 36.9
+wind: 123
+direction: "NE"
+date: "25.12.2023"
+
+id: "8974889e-394c-4e92-aec9-c00695b5ddeb"
+stationid: 702
+city: "Bucharest"
+rain: 75.1
+wind: 48
+direction: "N"
+date: "10.07.2023"
+
+id: "a169fe82-8830-4fbd-988f-0471a8107a09"
+stationid: 904
+city: "Iasi"
+temp: 3
+rain: 39.4
+wind: 74
+direction: "NE"
+date: "17.05.2025"
+
+id: "c050019c-857c-4092-8545-39c25fc3763e"
+stationid: 232
+city: "Botosani"
+temp: 44
+rain: 57.5
+wind: 27
+direction: "SW"
+date: "19.01.2025"
+
+id: "6e0ec8f8-fa6f-4f25-a8c4-4592080ff8a8"
+stationid: 568
+city: "Iasi"
+temp: 21
+rain: 95.0
+wind: 31
+direction: "NW"
+date: "31.12.2022"
+
+id: "e25e018a-f414-42df-877e-01fe80e6f3f9"
+stationid: 364
+city: "Bucharest"
+temp: 31
+rain: 32.0
+wind: 55
+direction: "N"
+date: "19.10.2024"
+

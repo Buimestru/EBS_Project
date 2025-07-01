@@ -1,0 +1,10 @@
+{subscriber=S1; (rain>=66.1); (date<"2022-10-07"); (avg_temp=25); (avg_wind=44)}
+{subscriber=S1; (rain<20.7); (date="2023-10-17"); (avg_temp<5); (city=""Timisoara""); (avg_wind>22)}
+{subscriber=S1; (rain=29.2); (date<"2022-11-19"); (temp<=35); (city=""Cluj""); (direction=""SE""); (wind!=32)}
+{subscriber=S1; (stationid>=441); (avg_temp<12); (city=""Suceava""); (wind!=80)}
+{subscriber=S1; (date>"2023-03-25"); (temp>=19); (city=""Iasi""); (avg_wind=141)}
+{subscriber=S1; (date>="2024-06-11"); (avg_temp>=43); (city=""Bucharest""); (wind!=9)}
+{subscriber=S1; (rain<43.3); (date>"2025-03-04"); (stationid>=745); (avg_temp>=14); (city=""Suceava""); (wind<=9)}
+{subscriber=S1; (temp>25); (city!=""Botosani""); (direction=""S""); (avg_wind=93)}
+{subscriber=S1; (rain>=70.8); (date<="2023-11-18"); (avg_temp>=24); (city=""Iasi""); (avg_wind=24)}
+{subscriber=S1; (rain<=76.1); (date!="2023-03-14"); (stationid>=453); (avg_temp>26); (city!=""Suceava""); (avg_wind<=36)}

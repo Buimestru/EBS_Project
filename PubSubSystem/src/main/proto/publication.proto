@@ -1,0 +1,21 @@
+syntax = "proto3";
+package pubsub;
+
+// generează câte clase Java vrei, fiecare mesaj separat
+option java_multiple_files  = true;
+// pune-le în pachetul Java pubsub
+option java_package         = "pubsub";
+// numele outer‐class (nu contează prea mult dacă multiple_files=true)
+option java_outer_classname = "PublicationProto";
+
+message Publication {
+  string  id          = 1;
+  int32  stationid    = 2;
+  string city         = 3;
+  int32  temp         = 4;
+  double rain         = 5;
+  int32  wind         = 6;
+  string direction    = 7;
+  string date         = 8;  // "dd.MM.yyyy"
+  bool   conditionMet  = 9;
+}
