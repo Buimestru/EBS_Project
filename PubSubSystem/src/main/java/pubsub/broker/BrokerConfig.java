@@ -1,4 +1,3 @@
-// src/main/java/pubsub/broker/BrokerConfig.java
 package pubsub.broker;
 
 import java.util.Map;

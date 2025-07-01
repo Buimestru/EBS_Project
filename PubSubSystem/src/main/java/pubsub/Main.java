@@ -15,25 +15,27 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+
+        /*
         // 1) Pornim 3 brokeri
         Broker b1 = new Broker(5000, 6000, List.of(
-                new Peer("localhost", 5001),
-                new Peer("localhost", 5002)
+                new Broker.Peer("localhost", 5001),
+                new Broker.Peer("localhost", 5002)
         ));
         Broker b2 = new Broker(5001, 6001, List.of(
-                new Peer("localhost", 5000),
-                new Peer("localhost", 5002)
+                new Broker.Peer("localhost", 5000),
+                new Broker.Peer("localhost", 5002)
         ));
         Broker b3 = new Broker(5002, 6002, List.of(
-                new Peer("localhost", 5000),
-                new Peer("localhost", 5001)
+                new Broker.Peer("localhost", 5000),
+                new Broker.Peer("localhost", 5001)
         ));
         b1.start();
         b2.start();
         b3.start();
-
-        // 2) Definim subscriieri multiple pentru fiecare subscriber
-        List<Subscription> subsS1 = SubscriptionGenerator.generateAllSubscriptions("S1");
+        */
+        // 2) Definim subscriptii multiple pentru fiecare subscriber
+   /*     List<Subscription> subsS1 = SubscriptionGenerator.generateAllSubscriptions("S1");
         SubscriptionGenerator.writeToFile(subsS1, "data/subscriptions_s1.txt");
         List<Subscription> subsS2 = SubscriptionGenerator.generateAllSubscriptions("S2");
         SubscriptionGenerator.writeToFile(subsS2, "data/subscriptions_s2.txt");
@@ -44,7 +46,7 @@ public class Main {
         new Thread(() -> Subscriber.run("S1", 7001, "localhost", 6000, subsS1)).start();
         new Thread(() -> Subscriber.run("S2", 7002, "localhost", 6001, subsS2)).start();
         new Thread(() -> Subscriber.run("S3", 7003, "localhost", 6002, subsS3)).start();
-
+*/
         // 4) După ce brokerii și subscriberii sunt gata, pornim publisher-ul
         String host       = "localhost";
         int port          = 5000;

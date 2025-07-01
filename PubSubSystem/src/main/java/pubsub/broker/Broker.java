@@ -1,4 +1,3 @@
-// src/main/java/pubsub/broker/Broker.java
 package pubsub.broker;
 
 import pubsub.Publication;
@@ -16,7 +15,7 @@ public class Broker {
     private final List<Subscription> subs = new CopyOnWriteArrayList<>();
     private final Set<String> seenIds = ConcurrentHashMap.newKeySet();
     private final Map<Subscription, Deque<Publication>> windows = new ConcurrentHashMap<>();
-    private final Map<String, DataOutputStream> subscriberStreams = new ConcurrentHashMap<>();
+
 
     public Broker(int pubPort, int subPort, List<Peer> neighbors) {
         this.pubPort   = pubPort;
@@ -62,29 +61,11 @@ public class Broker {
                     }
 
                     System.out.println("Broker@" + subPort + " înregistrat sub: " + sub);
-
-                    // --- deschidem și păstrăm fluxul de notificare ---
-                    Socket notifySock = new Socket(s.getInetAddress(), BrokerConfig.lookupPort(sub.getSubscriberId()));
-                    DataOutputStream dos = new DataOutputStream(notifySock.getOutputStream());
-                    subscriberStreams.put(sub.getSubscriberId(), dos);
-
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
         });
-
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            System.out.println("Broker pe pubPort=" + pubPort + " se opreşte...");
-            subscriberStreams.forEach((subId, out) -> {
-                try {
-                    out.close();
-                    System.out.println("  închis flux notificare pentru " + subId);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            });
-        }));
 
         System.out.println("Broker pornit pe pubPort=" + pubPort + " subPort=" + subPort);
     }
@@ -105,7 +86,7 @@ public class Broker {
             boolean isWindowed = windows.containsKey(sub);
             if (!isWindowed) {
                 // subscripţie simplă: notific instant
-                notifySubscriber(pub, sub.getSubscriberId());
+                notifySub(pub, sub.getSubscriberId());
             } else {
                 // subscripţie complexă: tumbling window
                 Deque<Publication> q = windows.get(sub);
@@ -145,7 +126,7 @@ public class Broker {
                     Publication meta = Publication.newBuilder(pub)
                             .setConditionMet(true)
                             .build();
-                    notifySubscriber(meta, sub.getSubscriberId());
+                    notifySub(meta, sub.getSubscriberId());
                 }
                 // tumbling: golim buffer-ul
                 q.clear();
@@ -212,22 +193,17 @@ public class Broker {
         };
     }
 
-    private void notifySubscriber(Publication pub, String subscriberId) {
-        DataOutputStream out = subscriberStreams.get(subscriberId);
-        if (out == null) return;  // subscriber necunoscut sau nu s-a înregistrat corect
-
-        try {
+    private void notifySub(Publication pub, String subId) {
+        int port = BrokerConfig.lookupPort(subId);
+        try (Socket s = new Socket("localhost", port);
+             DataOutputStream out = new DataOutputStream(s.getOutputStream())) {
             byte[] buf = pub.toByteArray();
             out.writeInt(buf.length);
             out.write(buf);
-            out.flush();
         } catch (IOException e) {
             e.printStackTrace();
-            // eventual poți elimina conexiunea dacă e mortă:
-            subscriberStreams.remove(subscriberId);
         }
     }
-
 
     public static class Peer {
         private final String host; private final int port;

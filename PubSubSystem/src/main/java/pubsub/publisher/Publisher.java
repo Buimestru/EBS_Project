@@ -1,4 +1,3 @@
-// src/main/java/pubsub/publisher/Publisher.java
 package pubsub.publisher;
 
 import pubsub.Publication;  // mesajul Protobuf generat

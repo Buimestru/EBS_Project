@@ -1,4 +1,3 @@
-// src/main/java/pubsub/model/Subscription.java
 package pubsub.model;
 
 import java.io.Serializable;

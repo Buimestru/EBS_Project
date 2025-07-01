@@ -1,4 +1,3 @@
-// src/main/java/pubsub/subscriber/Subscriber.java
 package pubsub.subscriber;
 
 import pubsub.Publication;

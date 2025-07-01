@@ -9,13 +9,13 @@ public class Config {
     public static final int           WINDOW_SIZE        = 10;
     // Procentajul de utilizare al criteriului avg pentru câmpuri
     public static final Map<String, Integer> AVG_CRITERION_PERCENTAGES = Map.of(
-            "temp", 70,
-            "wind", 60
+            "temp", 80,
+            "wind", 70
     );
     //----------------------
 
     public static final int TOTAL_PUBLICATIONS = 100;
-    public static final int TOTAL_SUBSCRIPTIONS = 10;
+    public static final int TOTAL_SUBSCRIPTIONS = 100;
 
     public static final int NUM_THREADS = Integer.parseInt(System.getProperty("numThreads", "4"));
 
