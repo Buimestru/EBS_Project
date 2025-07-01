@@ -26,48 +26,63 @@ public class Broker {
     public void start() throws IOException {
         // 1) Ascultă publicații
         ServerSocket ps = new ServerSocket(pubPort);
-        Executors.newSingleThreadExecutor().submit(() -> {
-            while (true) {
-                try (Socket s = ps.accept();
-                     DataInputStream in = new DataInputStream(s.getInputStream())) {
-                    // citim mesaje multiple de pe aceeași conexiune
-                    while (true) {
+
+        // 2) Ascultă subscrieri
+        ServerSocket ss = new ServerSocket(subPort);
+
+        while (true) {
+            Socket pubClient = ps.accept();
+            System.out.println("Client conectat: " + pubClient);
+
+            try (DataInputStream in = new DataInputStream(pubClient.getInputStream())) {
+                while (true) {
+                    try {
                         int len = in.readInt();
                         byte[] buf = new byte[len];
                         in.readFully(buf);
                         Publication pub = Publication.parseFrom(buf);
                         route(pub);
+
+                    } catch (EOFException eof) {
+                        // clientul a închis conexiunea
+                        System.out.println("Conexiunea clientului s-a închis.");
+                        break;
                     }
-                } catch (EOFException eof) {
-                    // conexiunea clientului s-a închis
-                } catch (Exception e) {
-                    e.printStackTrace();
                 }
+            } catch (Exception e) {
+                e.printStackTrace();
+            } finally {
+                pubClient.close();
             }
-        });
 
-        // 2) Ascultă subscrieri
-        ServerSocket ss = new ServerSocket(subPort);
-        Executors.newSingleThreadExecutor().submit(() -> {
-            while (true) {
-                try (Socket s = ss.accept();
-                     ObjectInputStream ois = new ObjectInputStream(s.getInputStream())) {
-                    Subscription sub = (Subscription) ois.readObject();
-                    subs.add(sub);
-                    boolean isComplex = sub.getFilters().stream()
-                            .anyMatch(f -> f.getField().startsWith("avg_"));
-                    if (isComplex) {
-                        windows.put(sub, new ArrayDeque<>(BrokerConfig.WINDOW_SIZE));
+            Socket subClient = ss.accept();
+            System.out.println("Client conectat: " + subClient);
+
+            try (ObjectInputStream in = new ObjectInputStream(subClient.getInputStream())) {
+                while (true) {
+                    try {
+                        Subscription sub = (Subscription) in.readObject();
+                        subs.add(sub);
+                        boolean isComplex = sub.getFilters().stream()
+                                .anyMatch(f -> f.getField().startsWith("avg_"));
+                        if (isComplex) {
+                            windows.put(sub, new ArrayDeque<>(BrokerConfig.WINDOW_SIZE));
+                        }
+
+                        System.out.println("Broker@" + subPort + " înregistrat sub: " + sub);
+                    } catch (EOFException eof) {
+                        // clientul a închis conexiunea
+                        System.out.println("Conexiunea clientului s-a închis.");
+                        break;
                     }
-
-                    System.out.println("Broker@" + subPort + " înregistrat sub: " + sub);
-                } catch (Exception e) {
-                    e.printStackTrace();
                 }
+            } catch (Exception e) {
+                e.printStackTrace();
+            } finally {
+                subClient.close();
             }
-        });
-
-        System.out.println("Broker pornit pe pubPort=" + pubPort + " subPort=" + subPort);
+        }
+        //System.out.println("Broker pornit pe pubPort=" + pubPort + " subPort=" + subPort);
     }
 
     private void route(Publication pub) {

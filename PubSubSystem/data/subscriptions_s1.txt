@@ -1,100 +1,100 @@
-{subscriber=S1; (avg_wind!=89); (city=""Timisoara""); (temp>21); (date<="2023-08-22"); (rain<32.1)}
-{subscriber=S1; (avg_wind<=92); (city=""Cluj""); (avg_temp!=42); (stationid=505); (date<="2025-02-21"); (rain<19.0)}
-{subscriber=S1; (avg_wind<110); (direction=""NW""); (city=""Timisoara""); (temp<17); (stationid>425); (date="2023-02-28")}
-{subscriber=S1; (avg_wind=86); (city=""Bucharest""); (avg_temp>34); (date>"2023-12-13")}
-{subscriber=S1; (avg_wind<96); (city=""Timisoara""); (avg_temp!=20); (date>"2023-09-16"); (rain=99.5)}
-{subscriber=S1; (wind<=123); (direction=""N""); (city!=""Iasi""); (avg_temp<16); (date<"2024-11-11"); (rain=52.9)}
-{subscriber=S1; (avg_wind>120); (city!=""Bucharest""); (avg_temp!=10); (date>"2024-12-07"); (rain>=7.8)}
-{subscriber=S1; (avg_wind<=12); (city=""Botosani""); (temp>10); (date<"2024-02-09"); (rain<=72.9)}
-{subscriber=S1; (avg_wind<74); (city=""Timisoara""); (avg_temp<43); (date>="2023-10-30")}
-{subscriber=S1; (avg_wind<82); (city=""Iasi""); (temp>=5); (date<="2023-07-30")}
-{subscriber=S1; (wind>9); (city=""Suceava""); (avg_temp=8); (stationid>590); (date>"2023-06-27"); (rain=69.6)}
-{subscriber=S1; (avg_wind<149); (city=""Botosani""); (avg_temp>12); (rain>67.2)}
-{subscriber=S1; (wind=147); (direction=""SW""); (city=""Timisoara""); (avg_temp>10); (date="2023-12-30"); (rain!=74.6)}
-{subscriber=S1; (wind=52); (avg_temp>=3); (rain>50.5)}
-{subscriber=S1; (avg_wind>4); (direction=""N""); (city=""Timisoara""); (avg_temp=45); (date<="2024-10-23")}
-{subscriber=S1; (avg_wind<106); (city=""Iasi""); (avg_temp<=8); (date>"2024-10-20")}
-{subscriber=S1; (wind>53); (city=""Bucharest""); (avg_temp=43); (stationid<=539); (date>="2022-11-27")}
-{subscriber=S1; (wind>=54); (city=""Timisoara""); (avg_temp<=30); (stationid=141); (date>"2024-08-26"); (rain=14.0)}
-{subscriber=S1; (avg_wind>=20); (avg_temp>19); (date!="2023-06-22"); (rain=98.8)}
-{subscriber=S1; (avg_wind!=39); (city=""Botosani""); (avg_temp<=21); (date>"2022-12-15")}
-{subscriber=S1; (avg_wind>136); (city=""Timisoara""); (avg_temp>19); (date>"2023-05-19"); (rain!=7.6)}
-{subscriber=S1; (wind=44); (avg_temp<2); (rain<19.9)}
-{subscriber=S1; (wind>=108); (direction=""N""); (city=""Iasi""); (avg_temp=36); (stationid<=222); (date<"2023-09-21"); (rain<=96.9)}
-{subscriber=S1; (avg_wind=40); (direction!=""NW""); (temp=2); (date<="2024-08-09")}
-{subscriber=S1; (avg_wind>=33); (city!=""Iasi""); (avg_temp<28); (date>="2023-11-06")}
-{subscriber=S1; (avg_wind<=41); (direction!=""SW""); (city!=""Botosani""); (avg_temp=16); (stationid>888); (date<="2024-06-28"); (rain>=29.9)}
-{subscriber=S1; (avg_wind=51); (city=""Botosani""); (avg_temp=16); (stationid>=738); (date>"2024-12-23")}
-{subscriber=S1; (avg_wind=126); (city=""Iasi""); (avg_temp!=23); (date<="2024-10-31")}
-{subscriber=S1; (wind=103); (avg_temp=38); (rain!=98.9)}
-{subscriber=S1; (avg_wind>21); (city=""Timisoara""); (avg_temp!=14); (date<"2024-08-24")}
-{subscriber=S1; (avg_wind>147); (city=""Bucharest""); (avg_temp>19); (date<="2022-12-13"); (rain<75.9)}
-{subscriber=S1; (wind<=21); (city=""Suceava""); (avg_temp<=17); (stationid!=57)}
-{subscriber=S1; (wind<22); (city=""Cluj""); (avg_temp>24); (stationid>186)}
-{subscriber=S1; (wind=116); (city=""Cluj""); (avg_temp>=40); (date<="2023-06-08")}
-{subscriber=S1; (avg_wind>=112); (direction=""SE""); (city=""Cluj""); (avg_temp<29); (stationid>=931); (date<"2023-06-15"); (rain!=63.3)}
-{subscriber=S1; (avg_wind<72); (city=""Iasi""); (avg_temp<34); (date!="2024-04-19")}
-{subscriber=S1; (wind<74); (city=""Suceava""); (avg_temp<=4); (date<"2023-11-12"); (rain=40.5)}
-{subscriber=S1; (avg_wind!=29); (city=""Bucharest""); (avg_temp!=7); (stationid<=727); (date>="2023-09-29")}
-{subscriber=S1; (avg_wind<=62); (direction!=""N""); (city=""Suceava""); (avg_temp=23); (rain<=54.7)}
-{subscriber=S1; (wind<=53); (city!=""Botosani""); (avg_temp>44); (stationid>=677); (date="2023-07-15")}
-{subscriber=S1; (wind=101); (direction!=""SW""); (city=""Botosani""); (avg_temp=6); (rain!=51.3)}
-{subscriber=S1; (avg_wind=142); (temp>18); (rain>45.4)}
-{subscriber=S1; (avg_wind>131); (city=""Suceava""); (temp>5); (date!="2023-08-09"); (rain=71.7)}
-{subscriber=S1; (avg_wind<=81); (avg_temp>41); (stationid>=289); (date<="2024-05-07")}
-{subscriber=S1; (avg_wind=64); (city!=""Iasi""); (avg_temp<28); (date<"2023-04-30"); (rain<71.1)}
-{subscriber=S1; (avg_wind!=18); (direction!=""E""); (city!=""Iasi""); (temp!=41); (date>="2025-05-01")}
-{subscriber=S1; (avg_wind!=79); (city!=""Bucharest""); (avg_temp<19); (rain<28.3)}
-{subscriber=S1; (avg_wind!=91); (city=""Cluj""); (avg_temp>45); (date>"2025-01-26"); (rain>40.2)}
-{subscriber=S1; (avg_wind=72); (city=""Cluj""); (temp!=38)}
-{subscriber=S1; (avg_wind<=30); (city=""Suceava""); (avg_temp>=43); (stationid>676); (rain>76.0)}
-{subscriber=S1; (avg_wind!=99); (city!=""Timisoara""); (avg_temp<32); (date>"2025-04-04")}
-{subscriber=S1; (wind<=87); (city!=""Timisoara""); (avg_temp!=44); (date<="2025-03-24")}
-{subscriber=S1; (wind=38); (city=""Iasi""); (temp<=31); (stationid>=46); (date="2023-05-13"); (rain=30.5)}
-{subscriber=S1; (avg_wind!=116); (city=""Botosani""); (avg_temp!=36); (stationid!=802); (date<="2022-12-10")}
-{subscriber=S1; (avg_wind=53); (direction!=""E""); (city=""Iasi""); (avg_temp>16); (rain<=21.2)}
-{subscriber=S1; (avg_wind!=2); (city=""Timisoara""); (avg_temp!=20); (date>="2024-05-23"); (rain=46.1)}
-{subscriber=S1; (wind<=5); (city=""Bucharest""); (avg_temp!=40); (stationid!=512); (date>="2024-04-03")}
-{subscriber=S1; (avg_wind>21); (city=""Botosani""); (avg_temp<4); (date<="2024-01-29")}
-{subscriber=S1; (avg_wind=111); (direction!=""NW""); (city=""Iasi""); (avg_temp>=7); (date<="2025-02-05")}
-{subscriber=S1; (avg_wind>137); (avg_temp<46); (date<"2025-04-11")}
-{subscriber=S1; (avg_wind=37); (city!=""Suceava""); (temp<13); (stationid<=399); (date!="2024-09-27")}
-{subscriber=S1; (avg_wind<62); (city=""Iasi""); (temp!=41); (date>"2025-01-17"); (rain=67.4)}
-{subscriber=S1; (avg_wind>=18); (city=""Botosani""); (avg_temp>=4); (rain>93.9)}
-{subscriber=S1; (avg_wind<=113); (direction!=""NE""); (city=""Timisoara""); (avg_temp!=24); (date="2023-12-20"); (rain=33.9)}
-{subscriber=S1; (avg_wind>53); (city=""Suceava""); (avg_temp<=2); (stationid>=130); (date<="2025-05-07"); (rain!=74.6)}
-{subscriber=S1; (avg_wind<=36); (city=""Suceava""); (avg_temp=44); (date<"2024-08-19")}
-{subscriber=S1; (wind>=116); (city=""Timisoara""); (avg_temp<=13); (stationid=383); (date>"2024-06-18"); (rain<0.9)}
-{subscriber=S1; (avg_wind>=119); (direction!=""N""); (avg_temp!=4); (stationid<=732); (date<="2025-03-11"); (rain=56.5)}
-{subscriber=S1; (avg_wind>110); (direction!=""SW""); (city=""Timisoara""); (avg_temp!=1); (stationid!=175); (date<"2023-11-07"); (rain>=31.7)}
-{subscriber=S1; (avg_wind<109); (city=""Botosani""); (avg_temp<=18); (stationid>710); (date<"2024-12-08"); (rain=79.5)}
-{subscriber=S1; (avg_wind>126); (city=""Timisoara""); (temp=16); (stationid<=293); (date>"2024-12-12"); (rain>=90.2)}
-{subscriber=S1; (wind<143); (city=""Timisoara""); (avg_temp>=46)}
-{subscriber=S1; (avg_wind!=140); (city=""Suceava""); (temp>18); (date!="2023-03-25"); (rain<=52.5)}
-{subscriber=S1; (wind>84); (city=""Botosani""); (avg_temp>=38); (stationid>164); (date>="2024-08-31")}
-{subscriber=S1; (wind<12); (city!=""Iasi""); (avg_temp>=29); (date>="2023-11-24"); (rain>=75.1)}
-{subscriber=S1; (avg_wind>76); (city=""Suceava""); (avg_temp>22); (date="2023-11-28"); (rain>=98.5)}
-{subscriber=S1; (avg_wind>=81); (city=""Bucharest""); (avg_temp>=40); (date<"2024-01-28")}
-{subscriber=S1; (avg_wind=58); (city=""Suceava""); (avg_temp<=27); (date>"2024-09-06"); (rain>99.1)}
-{subscriber=S1; (wind!=51); (city!=""Timisoara""); (avg_temp>34); (date!="2024-12-07"); (rain=80.2)}
-{subscriber=S1; (wind>=55); (city=""Iasi""); (avg_temp!=12); (date!="2023-01-04"); (rain>95.3)}
-{subscriber=S1; (avg_wind=75); (city=""Bucharest""); (temp<=38); (date<"2025-03-19"); (rain!=49.8)}
-{subscriber=S1; (avg_wind=20); (direction=""W""); (city=""Iasi""); (avg_temp>29); (date!="2022-10-14")}
-{subscriber=S1; (wind>=98); (city=""Bucharest""); (avg_temp>=8); (date>="2023-01-26"); (rain>21.2)}
-{subscriber=S1; (avg_wind<9); (direction!=""SW""); (city=""Iasi""); (temp>=8); (date="2024-10-19"); (rain<=32.7)}
-{subscriber=S1; (avg_wind!=75); (city=""Cluj""); (avg_temp<24)}
-{subscriber=S1; (avg_wind<132); (city=""Cluj""); (temp<=31); (date="2023-12-14"); (rain!=45.3)}
-{subscriber=S1; (wind>=17); (direction!=""S""); (city=""Suceava""); (avg_temp<28); (date<="2024-04-18"); (rain<=13.8)}
-{subscriber=S1; (avg_wind<=142); (city!=""Botosani""); (temp<31); (rain<=25.9)}
-{subscriber=S1; (wind<96); (city=""Timisoara""); (temp>=17); (stationid!=352); (date!="2023-09-22"); (rain>22.0)}
-{subscriber=S1; (avg_wind<=35); (city=""Suceava""); (avg_temp<=37); (rain=56.4)}
-{subscriber=S1; (wind<=116); (city!=""Timisoara""); (avg_temp<3); (date>="2025-06-17"); (rain>=29.0)}
-{subscriber=S1; (avg_wind<71); (city=""Bucharest""); (avg_temp=25); (date<="2024-01-16"); (rain<13.5)}
-{subscriber=S1; (avg_wind!=115); (city=""Suceava""); (avg_temp=2)}
-{subscriber=S1; (wind=30); (city=""Timisoara""); (temp!=24); (stationid<=793)}
-{subscriber=S1; (avg_wind!=17); (city=""Timisoara""); (avg_temp=13); (date>"2023-06-12")}
-{subscriber=S1; (avg_wind>=125); (city=""Suceava""); (avg_temp>=36); (date>"2023-05-13"); (rain>12.5)}
-{subscriber=S1; (avg_wind!=123); (city=""Cluj""); (avg_temp<=35); (date>"2023-09-28"); (rain!=56.3)}
-{subscriber=S1; (avg_wind!=99); (city=""Cluj""); (avg_temp>38); (date>="2025-05-23")}
-{subscriber=S1; (avg_wind>=37); (city=""Suceava""); (avg_temp=47); (stationid=587); (date<="2023-12-01"); (rain<76.7)}
-{subscriber=S1; (wind!=138); (direction!=""NE""); (avg_temp!=8); (stationid<=204); (date<="2023-07-30"); (rain>39.3)}
+{subscriber=S1; (avg_temp<42); (city=""Botosani""); (direction!=""SW""); (wind!=88); (date>"2024-06-01")}
+{subscriber=S1; (temp>=6); (city!=""Cluj""); (avg_wind<148); (rain<=28.9); (date<="2025-03-02")}
+{subscriber=S1; (avg_temp>=45); (city!=""Cluj""); (avg_wind=63); (rain>78.1); (date<"2025-02-23")}
+{subscriber=S1; (avg_temp<=39); (city!=""Timisoara""); (avg_wind>16); (rain<=59.1); (date="2024-07-17")}
+{subscriber=S1; (avg_temp>45); (city=""Cluj""); (wind<119); (rain>15.3)}
+{subscriber=S1; (avg_temp!=12); (city!=""Suceava""); (direction!=""W""); (wind!=137); (date>"2023-05-09")}
+{subscriber=S1; (stationid<=627); (temp>=27); (city=""Timisoara""); (avg_wind>=3); (date<="2024-12-25")}
+{subscriber=S1; (stationid<610); (temp=40); (city=""Cluj""); (avg_wind<=40)}
+{subscriber=S1; (stationid>=775); (avg_temp<30); (city!=""Bucharest""); (avg_wind<=101); (rain>=39.8)}
+{subscriber=S1; (stationid=428); (avg_temp<=23); (city=""Cluj""); (wind>=140)}
+{subscriber=S1; (avg_temp>=18); (city=""Botosani""); (wind>69); (rain=23.2); (date>="2023-01-10")}
+{subscriber=S1; (avg_temp>6); (city=""Iasi""); (wind<=44); (rain=2.4); (date="2024-08-20")}
+{subscriber=S1; (stationid>826); (avg_temp<38); (city=""Botosani""); (avg_wind!=92); (rain=20.3); (date>="2023-02-28")}
+{subscriber=S1; (stationid>=421); (avg_temp=17); (city=""Botosani""); (avg_wind>19); (rain<=74.7)}
+{subscriber=S1; (avg_temp>23); (city!=""Suceava""); (wind<=76); (rain>=47.1); (date!="2025-05-11")}
+{subscriber=S1; (temp!=1); (city=""Cluj""); (direction!=""S""); (wind<29)}
+{subscriber=S1; (stationid<456); (avg_temp>45); (city=""Suceava""); (wind<19); (rain>=6.1)}
+{subscriber=S1; (avg_temp<18); (city=""Suceava""); (wind<54)}
+{subscriber=S1; (stationid>687); (avg_temp<=2); (city=""Cluj""); (avg_wind<41); (date<"2024-12-22")}
+{subscriber=S1; (avg_temp!=13); (city=""Bucharest""); (direction!=""SE""); (wind!=36); (rain>=11.9); (date>"2024-01-08")}
+{subscriber=S1; (avg_temp>=10); (city=""Timisoara""); (avg_wind=55); (date>="2023-05-15")}
+{subscriber=S1; (temp<=30); (direction=""SW""); (avg_wind>=139); (rain>=96.1); (date>"2025-03-23")}
+{subscriber=S1; (stationid<=203); (temp!=48); (city=""Bucharest""); (avg_wind<=135); (rain!=57.9); (date="2024-11-15")}
+{subscriber=S1; (avg_temp>=4); (city=""Bucharest""); (avg_wind=5); (rain<40.9)}
+{subscriber=S1; (temp>42); (direction=""W""); (wind<129); (date!="2025-06-21")}
+{subscriber=S1; (avg_temp>6); (city=""Bucharest""); (avg_wind!=102); (rain<=83.1); (date!="2025-04-04")}
+{subscriber=S1; (temp!=20); (city=""Iasi""); (avg_wind>=93); (date!="2025-03-08")}
+{subscriber=S1; (stationid>=510); (avg_temp<48); (city=""Botosani""); (avg_wind<14); (rain!=1.1); (date>="2022-12-31")}
+{subscriber=S1; (avg_temp!=24); (city=""Iasi""); (wind=106); (date!="2023-04-04")}
+{subscriber=S1; (temp<46); (city=""Suceava""); (direction=""SE""); (wind<2); (rain>=32.6); (date<"2023-07-05")}
+{subscriber=S1; (avg_temp!=20); (city=""Cluj""); (avg_wind>119); (date<"2023-02-24")}
+{subscriber=S1; (avg_temp=15); (city=""Botosani""); (avg_wind<=42); (rain>=37.9); (date>="2024-07-24")}
+{subscriber=S1; (avg_temp<=17); (avg_wind!=80); (date<="2023-02-11")}
+{subscriber=S1; (avg_temp!=15); (avg_wind>144); (rain>86.7); (date>"2023-11-04")}
+{subscriber=S1; (avg_temp<43); (city=""Iasi""); (wind<31); (rain>5.6); (date<="2022-10-07")}
+{subscriber=S1; (stationid=333); (avg_temp>38); (city!=""Timisoara""); (avg_wind>78); (date>="2023-03-21")}
+{subscriber=S1; (avg_temp>38); (city=""Suceava""); (wind<136); (rain<17.3); (date>"2022-11-03")}
+{subscriber=S1; (avg_temp!=31); (city=""Botosani""); (avg_wind>=120); (date>="2023-06-18")}
+{subscriber=S1; (stationid<416); (avg_temp<22); (city=""Botosani""); (direction=""N""); (avg_wind>=29); (rain>22.1); (date="2024-01-05")}
+{subscriber=S1; (avg_temp<6); (city=""Cluj""); (direction!=""S""); (wind>=87)}
+{subscriber=S1; (avg_temp>=37); (city=""Botosani""); (direction!=""SE""); (avg_wind=128); (date>"2023-04-07")}
+{subscriber=S1; (temp>=32); (city!=""Suceava""); (direction=""SW""); (avg_wind=5); (rain>=35.8); (date>="2025-01-05")}
+{subscriber=S1; (stationid<=632); (avg_temp>=6); (city=""Botosani""); (avg_wind!=95); (rain>=22.0); (date="2022-11-11")}
+{subscriber=S1; (stationid<=897); (avg_temp=25); (city!=""Cluj""); (wind!=137); (rain>51.2); (date>="2025-03-13")}
+{subscriber=S1; (avg_temp>=36); (city!=""Suceava""); (wind>8); (rain>=7.2); (date>="2023-12-18")}
+{subscriber=S1; (avg_temp=9); (city=""Iasi""); (avg_wind!=35); (rain>=90.5); (date>"2023-02-14")}
+{subscriber=S1; (temp<25); (city=""Suceava""); (avg_wind>=82); (rain<41.9); (date>"2024-01-08")}
+{subscriber=S1; (stationid>=564); (avg_temp<=25); (city=""Botosani""); (avg_wind>=18); (rain>=66.6); (date="2024-04-28")}
+{subscriber=S1; (stationid<=423); (avg_temp>10); (city=""Timisoara""); (direction=""S""); (avg_wind<114)}
+{subscriber=S1; (temp!=5); (city=""Iasi""); (wind=92); (rain<40.9); (date<="2025-03-28")}
+{subscriber=S1; (avg_temp<18); (avg_wind>=75); (rain<=4.8); (date>="2024-10-03")}
+{subscriber=S1; (avg_temp=33); (city=""Bucharest""); (avg_wind!=130)}
+{subscriber=S1; (avg_temp<10); (avg_wind<=47); (date>="2024-07-12")}
+{subscriber=S1; (stationid=292); (temp>12); (city=""Iasi""); (avg_wind<116); (rain<=99.6); (date="2023-09-14")}
+{subscriber=S1; (avg_temp>=22); (city=""Iasi""); (avg_wind<49); (date>="2024-02-19")}
+{subscriber=S1; (avg_temp=6); (city=""Iasi""); (direction!=""NE""); (avg_wind>=104); (rain=0.2); (date>="2024-08-16")}
+{subscriber=S1; (avg_temp<5); (city=""Bucharest""); (wind!=8); (date!="2025-05-04")}
+{subscriber=S1; (avg_temp>=3); (city=""Botosani""); (wind!=94); (date>="2023-11-28")}
+{subscriber=S1; (stationid>615); (avg_temp<14); (city=""Botosani""); (avg_wind<143)}
+{subscriber=S1; (avg_temp<=0); (city=""Suceava""); (avg_wind!=41); (rain>=72.5); (date!="2024-03-11")}
+{subscriber=S1; (avg_temp!=35); (direction!=""NE""); (avg_wind>50); (rain<33.4); (date<"2025-01-24")}
+{subscriber=S1; (avg_temp<=49); (city=""Cluj""); (avg_wind<10); (date<="2024-01-20")}
+{subscriber=S1; (avg_temp>17); (city=""Cluj""); (avg_wind<94); (rain<=56.1); (date>="2024-11-20")}
+{subscriber=S1; (avg_temp!=38); (city=""Iasi""); (avg_wind<=56); (rain<=76.7)}
+{subscriber=S1; (avg_temp>14); (avg_wind>=83); (date<"2023-01-20")}
+{subscriber=S1; (stationid>=194); (avg_temp>=14); (city=""Botosani""); (avg_wind<=70); (rain=56.7); (date>="2024-07-02")}
+{subscriber=S1; (stationid>=629); (temp!=29); (city=""Iasi""); (direction=""E""); (avg_wind>127); (rain<=10.2); (date!="2023-11-18")}
+{subscriber=S1; (avg_temp>7); (city=""Bucharest""); (direction=""NW""); (avg_wind=20); (date>="2024-11-15")}
+{subscriber=S1; (temp!=15); (city=""Suceava""); (wind<62)}
+{subscriber=S1; (temp=49); (city=""Timisoara""); (avg_wind!=8); (rain=51.5); (date<="2025-02-26")}
+{subscriber=S1; (stationid<287); (avg_temp>8); (city=""Botosani""); (wind=101); (rain<=40.4); (date="2023-12-24")}
+{subscriber=S1; (avg_temp!=30); (avg_wind=84); (date<"2024-07-24")}
+{subscriber=S1; (avg_temp!=49); (city=""Suceava""); (avg_wind!=142); (rain>=72.8); (date>="2023-10-26")}
+{subscriber=S1; (temp>27); (city=""Botosani""); (direction!=""N""); (avg_wind<15); (rain>42.8)}
+{subscriber=S1; (stationid=962); (avg_temp<19); (city=""Iasi""); (avg_wind>122); (rain<23.0); (date!="2024-03-10")}
+{subscriber=S1; (avg_temp=9); (city=""Cluj""); (avg_wind<=17); (date>"2024-10-03")}
+{subscriber=S1; (stationid=822); (avg_temp>=27); (city!=""Bucharest""); (wind!=87); (rain!=91.2); (date>="2023-03-26")}
+{subscriber=S1; (stationid<=934); (avg_temp>14); (city=""Bucharest""); (avg_wind>=82); (rain=14.7)}
+{subscriber=S1; (stationid=312); (avg_temp>33); (city!=""Iasi""); (avg_wind<=31); (date="2023-11-26")}
+{subscriber=S1; (temp<41); (city=""Suceava""); (avg_wind>=95); (rain<=62.6); (date>"2022-12-01")}
+{subscriber=S1; (stationid<378); (avg_temp<5); (city=""Iasi""); (avg_wind<140); (rain<7.7); (date>="2024-02-02")}
+{subscriber=S1; (stationid!=291); (avg_temp<34); (city=""Botosani""); (avg_wind<147); (date<="2023-07-23")}
+{subscriber=S1; (avg_temp>6); (city=""Iasi""); (direction=""E""); (wind<=80); (rain>21.3); (date>="2024-03-07")}
+{subscriber=S1; (avg_temp>22); (wind<131); (rain>=96.4); (date>"2023-02-24")}
+{subscriber=S1; (avg_temp<10); (city=""Bucharest""); (avg_wind<51); (rain<=23.4); (date<"2024-08-20")}
+{subscriber=S1; (avg_temp>=0); (city=""Botosani""); (direction!=""W""); (avg_wind>6); (date!="2025-04-02")}
+{subscriber=S1; (avg_temp>33); (city=""Timisoara""); (wind<=127); (date>"2023-04-07")}
+{subscriber=S1; (avg_temp<46); (city=""Suceava""); (avg_wind<127); (rain>36.8); (date<="2023-02-06")}
+{subscriber=S1; (stationid<1); (avg_temp>=28); (city=""Timisoara""); (avg_wind!=74); (rain<=63.6); (date>="2024-05-11")}
+{subscriber=S1; (avg_temp>=30); (city=""Botosani""); (avg_wind!=95); (rain<=31.1); (date>"2023-08-15")}
+{subscriber=S1; (stationid>876); (temp<27); (city=""Botosani""); (direction=""N""); (avg_wind>77); (rain<88.5); (date<"2025-04-25")}
+{subscriber=S1; (avg_temp>0); (city!=""Iasi""); (avg_wind<=85); (rain=68.1); (date<"2024-03-27")}
+{subscriber=S1; (avg_temp>=12); (city=""Bucharest""); (avg_wind>121); (rain>59.8)}
+{subscriber=S1; (avg_temp!=37); (city=""Botosani""); (wind>42); (date>"2024-01-25")}
+{subscriber=S1; (avg_temp<=45); (city=""Cluj""); (avg_wind!=85); (date<="2025-06-11")}
+{subscriber=S1; (stationid!=895); (avg_temp=39); (city=""Timisoara""); (avg_wind>15); (date>="2025-01-18")}
+{subscriber=S1; (avg_temp<4); (city=""Suceava""); (avg_wind<=52); (date>="2024-03-13")}
+{subscriber=S1; (avg_temp!=17); (city!=""Iasi""); (wind<25); (date<="2024-11-07")}
+{subscriber=S1; (temp=45); (city=""Iasi""); (avg_wind=55); (rain!=3.6)}
+{subscriber=S1; (avg_temp!=18); (city=""Suceava""); (avg_wind!=88); (rain>99.2)}

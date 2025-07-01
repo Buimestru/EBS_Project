@@ -22,7 +22,7 @@ public class Publisher {
 
     public void publish() throws Exception {
         List<Publication> publications = PublicationGenerator.generatePublications(Config.TOTAL_PUBLICATIONS);
-        PublicationGenerator.writeToFile(publications, "data/publications_v3.txt");
+        //PublicationGenerator.writeToFile(publications, "data/publications_v3.txt");
 
         try (Socket socket = new Socket(brokerHost, brokerPort);
              DataOutputStream out = new DataOutputStream(socket.getOutputStream())) {
